@@ -1,4 +1,4 @@
-import { test, expect, Locator } from '@playwright/test'
+import { test, expect } from '@playwright/test'
 import { LoginPage } from '../../page-objects/LoginPage'
 import { HomePage } from '../../page-objects/HomePage'
 
@@ -27,7 +27,7 @@ test.describe.parallel.only('Login / Logout Flow', () => {
     await homePage.clickOnSignIn()
     await loginPage.login('username', 'password')
 
-    const accountSummaryTab: Locator = await page.locator('#account_summary_tab')
+    const accountSummaryTab = await page.locator('#account_summary_tab')
     await expect(accountSummaryTab).toBeVisible()
 
     await page.goto('http://zero.webappsecurity.com/logout.html')

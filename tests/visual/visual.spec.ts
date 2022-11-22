@@ -8,7 +8,7 @@ test.describe.only('Visual Regression Testing Example', () => {
 
   test('Single Element Snapshot', async ({ page }) => {
     await page.goto('https://www.example.com')
-    const pageElement: any = await page.$('h1')
+    const pageElement = await page.$('h1')
     expect(await pageElement.screenshot()).toMatchSnapshot('page-title.png')
   })
 })
