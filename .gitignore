@@ -1,0 +1,10 @@
+#dependencies
+node_modules/
+
+#Playwright test results
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+#Screenshots and download
+/screenshots/
