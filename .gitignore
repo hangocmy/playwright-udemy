@@ -9,5 +9,7 @@ node_modules/
 #Screenshots and download
 /screenshots/
 
+#Files
 /*.png
 /*.jpg
+/*.pdf
