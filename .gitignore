@@ -8,3 +8,6 @@ node_modules/
 
 #Screenshots and download
 /screenshots/
+
+/*.png
+/*.jpg

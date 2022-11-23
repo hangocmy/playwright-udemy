@@ -1,0 +1,8 @@
+- Step1: Setup and run Jenkins:
+  java -jar jenkins.war --httpPort=8080 --enable-future-java
+
+- Step2: Open browser localhost:8080
+
+- Step3: Paste password generated
+
+- username: admin - password: 5ddb441dd34d42d0a8810c88973c7fe2
